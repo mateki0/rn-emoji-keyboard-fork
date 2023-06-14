@@ -30,8 +30,7 @@
     "example": "yarn --cwd example",
     "pods": "cd example && pod-install --quiet",
     "bootstrap": "yarn example && yarn && yarn pods",
-    "generateIcons": "node ./scripts/generateIcons.js",
-    "postinstall": "cp -R ./node_modules/rn-emoji-keyboard/src/assets/fonts ./src/assets/fonts"
+    "generateIcons": "node ./scripts/generateIcons.js && cp -R ./node_modules/rn-emoji-keyboard/src/assets/fonts ./src/assets/fonts",
   },
   "keywords": [
     "react-native",
