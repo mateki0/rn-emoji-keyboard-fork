@@ -43,7 +43,7 @@ export const Icon = ({
     case 'Flag':
       return <Flag fill={color} />
     case 'Ban':
-      return <Ban fill={color} />
+      return <Ban  />
     case 'Users':
       return <Users fill={color} />
     case 'Search':
